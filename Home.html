@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+	<title>مواعيد القطورات</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<form action="Show.php" method="post">
+  <div align="center" class="contener">
+        <div class="modal-header">
+                <marquee width="50%" direction="right">قطارات مصر</marquee>
+        </div>  
+                <i><label id="label"><h2> محطه القيام </h2></label></i>
+                <input type="text" name="txt1" id="txt1" value="">
+
+                <i><label id="label"><h2>محطه الوصول </h2></label></i>
+                <input type="text" name="txt2" id="txt2" value="">
+
+               <i> <label id="label"><h2>نوع القطار </h2></label></i>
+                <select class="form-control"  name="type">
+                  <option value="All">الكل</option>
+                  <option value="نوم مكيف">نوم مكيف</option>
+                  <option value="أولى وثانية مكيفة">أولى وثانية مكيفة</option>
+                  <option value="فاخرة مكيف الهواء">فاخرة مكيف الهواء</option>
+                  <option value="يتم الحجز عليه نقداً">يتم الحجز عليه نقداً</option>
+                  <option value="(مطور (ركاب">مطور (ركاب)</option>
+                  <option value="مميز">مميز</option>
+                  <option value="إكسبريس">إكسبريس</option>
+                  <option value="مكيف + به عربات مميزة">مكيف + به عربات مميزة</option>
+                  <option value="VIP">VIP</option>
+                </select>
+           
+
+            <div class="modal-footer">
+            <input type="submit" name="submit" id="sub" value="بحث">
+            <input type="button" name="swap" id="s" value="بدل" onclick="f3();">
+            </div>
+            </div>
+</form>
+<script type="text/javascript" src="Js.js"></script>
+</body>
+</html>

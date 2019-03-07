@@ -1,0 +1,54 @@
+body{
+	background-image:"p.jpg";
+}
+form{
+	align-items: center;
+}
+.modal-header{
+	font-size: 100px;
+	color: blue;
+}
+.contener{
+	background-color:#080;
+	padding:20px;
+	margin:20px;
+	border-width:  10px;
+	border-style:double ;
+	border-color: red;
+	
+}
+.form-control{
+	font-size: 30px;
+	width: 250px;
+	background-color:#DDD; 
+}
+#sub,#s{
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 40px;
+	font-size: 40px;
+	background-color: #D0D;
+}
+#label{
+	font-size: 20px;
+	width: 500px;
+	background-color:#08;
+	color: #DFD;
+
+}
+#txt1,#txt2{
+	font-size: 30px;
+	width: 400px;
+	margin: 20px;
+    
+
+}
+th{
+font-size: 40px;
+      	color: #FF0080;
+}
+td{
+font-size:30px;
+color:#0080FF;
+}
